@@ -44,6 +44,38 @@ class MachineSerializer(serializers.ModelSerializer):
         model = Machine
         fields = '__all__'
         extra_kwargs = {
+            # 'machine_id': {'read_only': True},
+            'created_at': {'read_only': True},
+            'updated_at': {'read_only': True}
+        }
+
+    def validate_tool_offset(self, value):
+        """
+        Validate that the tool_offset is between 5 and 40.
+        """
+        if not (5 <= value <= 40):
+            raise serializers.ValidationError(
+                'Tool offset must be between 5 and 40.')
+        return value
+
+    def validate_feedrate(self, value):
+        """
+        Validate that the feedrate is between 0 and 20000.
+        """
+        if not (0 <= value <= 20000):
+            raise serializers.ValidationError(
+                'Feedrate must be between 0 and 20000.')
+        return value
+
+
+class MachineSerializerForSingle(serializers.ModelSerializer):
+    """
+    Serializer for Machine model, including custom validations for tool_offset and feedrate.
+    """
+    class Meta:
+        model = Machine
+        fields = '__all__'
+        extra_kwargs = {
             'machine_id': {'read_only': True},
             'created_at': {'read_only': True},
             'updated_at': {'read_only': True}
@@ -185,6 +217,7 @@ class AxisSerializer(serializers.ModelSerializer):
         extra_kwargs = {
             'machine': {'required': False}
         }
+        depth = 2
 
     def validate(self, data):
         """

@@ -5,7 +5,7 @@ class Machine(models.Model):
     """
     Model representing a machine with its properties and validation.
     """
-    machine_id = models.CharField(max_length=50, unique=True)
+    machine_id = models.CharField(max_length=50,blank=False,null=False, unique=True)
     machine_name = models.CharField(max_length=100, unique=True)
     tool_capacity = models.IntegerField()
     tool_offset = models.FloatField()

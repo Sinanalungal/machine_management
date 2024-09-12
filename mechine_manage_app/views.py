@@ -3,7 +3,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.exceptions import NotFound, ValidationError
 from .models import Machine, ToolsInUse, FieldData, Axis
-from .serializers import MachineSerializer, UserRegisterSerializer, FieldDataLatestSerializer, ToolsInUseSerializer, AxisSerializer
+from .serializers import MachineSerializer, UserRegisterSerializer,MachineSerializerForSingle, FieldDataLatestSerializer, ToolsInUseSerializer, AxisSerializer
 from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import RefreshToken
 from .permissions import CustomPermissionsExceptToolsInUse,CustomPermissionsForToolsInUse,ReadingDataPermission
@@ -48,6 +48,25 @@ class MachineViewSet(viewsets.ModelViewSet):
         except Machine.DoesNotExist:
             raise NotFound(f"Machine with machine_id {machine_id} not found.")
 
+class MachineViewSetForSingleData(viewsets.ModelViewSet):
+    """
+    API viewset for managing Machine instances.
+    """
+    queryset = Machine.objects.all()
+    serializer_class = MachineSerializerForSingle
+    permission_classes = [CustomPermissionsExceptToolsInUse]
+
+    def get_object(self):
+        """
+        Retrieve a Machine instance by machine_id.
+        """
+        machine_id = self.kwargs.get("machine_id")
+        try:
+            return Machine.objects.get(machine_id=machine_id)
+        except Machine.DoesNotExist:
+            raise NotFound(f"Machine with machine_id {machine_id} not found.")
+
+    
 
 class ToolsInUseViewSet(viewsets.ModelViewSet):
     """
@@ -133,7 +152,7 @@ class MachineHistoricalDataView(APIView):
     """
     API view to retrieve historical data for a specified machine and axes.
     """
-    permission_classes = [ReadingDataPermission]
+    # permission_classes = [ReadingDataPermission]
 
     def get(self, request, *args, **kwargs):
         """

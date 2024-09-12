@@ -1,6 +1,6 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from .views import MachineViewSet, RegisterView,AxisViewSet, ToolsInUseViewSet,MachineHistoricalDataView
+from .views import MachineViewSet, RegisterView,AxisViewSet,MachineViewSetForSingleData, ToolsInUseViewSet,MachineHistoricalDataView
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 
@@ -8,7 +8,7 @@ urlpatterns = [
     path('register/', RegisterView.as_view(), name='register'),
     path('token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-    path('machines/<str:machine_id>/', MachineViewSet.as_view({
+    path('machines/<str:machine_id>/', MachineViewSetForSingleData.as_view({
         'get': 'retrieve',
         'put': 'update',
         'patch': 'partial_update',
