@@ -12,6 +12,81 @@ cd machine_management
 
 ```
 
+# WITH DOCKER
+
+## Build The Application by docker compose
+
+```
+docker-compose up --build -d
+```
+
+## For getting the container information for container id and other ..
+
+```
+docker ps
+```
+
+## Get in to the container
+
+```
+docker exec -it <container_id> /bin/bash
+```
+
+## Migrate the Application
+
+```
+python manage.py  migrate
+```
+
+## Create Superuser
+
+```
+python manage.py createsuperuser
+```
+*give credentials to createSuperuser*
+
+## Run The Commands
+
+```
+python create_permission.py
+python random_creator.py
+
+```
+
+
+## Open Admin panel
+
+```
+http://localhost:8000/admin/
+
+```
+-give super user credentials to the admin panel and redirect to admin
+
+-open user and click the created user (if you want to create add user and  you have api for that too , but you must set the role through the admin panel)
+
+-assign the role that in the group section to the user
+
+
+
+
+
+
+
+# WITHOUT DOCKER
+
+## Change Channel Layer In setting.py
+
+```
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            "hosts": [('127.0.0.1', 6379)],
+        },
+    },
+}
+```
+
 ## Create a Virtual Environment
 
 ```
@@ -93,7 +168,7 @@ http://localhost:8000/admin/
 -assign the role that in the group section to the user
 
 
-## API Documentation
+# API Documentation
 
 
 ## User Registration
