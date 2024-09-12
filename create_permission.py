@@ -15,5 +15,5 @@ def start_data_generation():
 
 
 if __name__ == "__main__":
-    print("Starting data generation for 20 machines with 5 axes each...")
+    print("creating permissions")
     start_data_generation()
