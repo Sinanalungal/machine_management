@@ -171,6 +171,9 @@ Response:json
 ```
 ## Machine Endpoints
 
+Must send the access token as the autherisation Bearer
+
+
 ```
 GET http://localhost:8000/machines/
 ```
@@ -482,3 +485,18 @@ Response:json
 }
 
 ```
+
+## Websocket Updated Mechine Datas
+
+*connect with this*
+
+```
+ws://localhost:8000/ws/machine_data/
+```
+
+*if there is any issue check your shell everything running properly or not*
+
+
+
+
+---END---
