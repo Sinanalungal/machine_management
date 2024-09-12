@@ -1,0 +1,219 @@
+2024-09-12 10:56:00,071 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-12 10:56:00,075 INFO supervisord started with pid 1
+2024-09-12 10:56:01,079 INFO spawned: 'django' with pid 8
+2024-09-12 10:56:01,082 INFO spawned: 'random_creator' with pid 9
+2024-09-12 10:56:02,084 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:02,084 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:02,512 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:03,381 INFO spawned: 'random_creator' with pid 12
+2024-09-12 10:56:04,622 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:04,809 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:05,812 INFO spawned: 'random_creator' with pid 13
+2024-09-12 10:56:06,815 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:07,102 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:08,105 INFO spawned: 'random_creator' with pid 14
+2024-09-12 10:56:09,107 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:09,510 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:10,513 INFO spawned: 'random_creator' with pid 15
+2024-09-12 10:56:11,515 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:12,026 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:13,029 INFO spawned: 'random_creator' with pid 16
+2024-09-12 10:56:14,030 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:14,395 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:15,399 INFO spawned: 'random_creator' with pid 17
+2024-09-12 10:56:16,404 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:17,624 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:18,627 INFO spawned: 'random_creator' with pid 18
+2024-09-12 10:56:19,630 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:21,764 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:22,767 INFO spawned: 'random_creator' with pid 19
+2024-09-12 10:56:23,769 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:23,988 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:24,991 INFO spawned: 'random_creator' with pid 20
+2024-09-12 10:56:25,993 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:26,230 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:27,233 INFO spawned: 'random_creator' with pid 21
+2024-09-12 10:56:28,235 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:28,514 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:29,517 INFO spawned: 'random_creator' with pid 22
+2024-09-12 10:56:30,519 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:30,800 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:31,803 INFO spawned: 'random_creator' with pid 23
+2024-09-12 10:56:32,805 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:32,923 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:33,926 INFO spawned: 'random_creator' with pid 24
+2024-09-12 10:56:34,928 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:35,081 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:36,084 INFO spawned: 'random_creator' with pid 25
+2024-09-12 10:56:37,085 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:37,269 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:38,272 INFO spawned: 'random_creator' with pid 26
+2024-09-12 10:56:39,274 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:39,402 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:39,700 INFO spawned: 'random_creator' with pid 27
+2024-09-12 10:56:40,715 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:40,832 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:41,834 INFO spawned: 'random_creator' with pid 31
+2024-09-12 10:56:42,923 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:42,925 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:43,928 INFO spawned: 'random_creator' with pid 32
+2024-09-12 10:56:44,930 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:45,063 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:46,066 INFO spawned: 'random_creator' with pid 33
+2024-09-12 10:56:47,069 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:47,291 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:48,294 INFO spawned: 'random_creator' with pid 34
+2024-09-12 10:56:49,297 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:49,475 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:50,478 INFO spawned: 'random_creator' with pid 35
+2024-09-12 10:56:51,481 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:51,583 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:52,587 INFO spawned: 'random_creator' with pid 36
+2024-09-12 10:56:53,684 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:53,685 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:54,688 INFO spawned: 'random_creator' with pid 37
+2024-09-12 10:56:55,690 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:55,821 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:56,824 INFO spawned: 'random_creator' with pid 38
+2024-09-12 10:56:57,908 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:56:57,909 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:56:58,913 INFO spawned: 'random_creator' with pid 39
+2024-09-12 10:56:59,915 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:57:00,077 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:57:01,079 INFO spawned: 'random_creator' with pid 40
+2024-09-12 10:57:02,081 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:57:02,254 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:57:03,257 INFO spawned: 'random_creator' with pid 41
+2024-09-12 10:57:04,259 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:57:04,380 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:57:05,383 INFO spawned: 'random_creator' with pid 42
+2024-09-12 10:57:06,383 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:57:06,482 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:57:07,485 INFO spawned: 'random_creator' with pid 43
+2024-09-12 10:57:08,487 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:57:08,604 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:57:09,606 INFO spawned: 'random_creator' with pid 44
+2024-09-12 10:57:10,608 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:57:10,740 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:57:11,743 INFO spawned: 'random_creator' with pid 45
+2024-09-12 10:57:12,744 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:57:12,927 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:57:13,929 INFO spawned: 'random_creator' with pid 46
+2024-09-12 10:57:14,931 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:57:15,093 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:57:16,096 INFO spawned: 'random_creator' with pid 47
+2024-09-12 10:57:17,098 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:57:17,229 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:57:18,233 INFO spawned: 'random_creator' with pid 48
+2024-09-12 10:57:19,235 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:57:19,423 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:57:20,426 INFO spawned: 'random_creator' with pid 49
+2024-09-12 10:57:21,428 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:57:21,559 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:57:21,561 INFO spawned: 'random_creator' with pid 50
+2024-09-12 10:57:22,562 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:57:22,702 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:57:23,705 INFO spawned: 'random_creator' with pid 51
+2024-09-12 10:57:24,707 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:57:24,852 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:57:25,854 INFO spawned: 'random_creator' with pid 52
+2024-09-12 10:57:26,856 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:57:26,965 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:57:27,967 INFO spawned: 'random_creator' with pid 53
+2024-09-12 10:57:28,969 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:57:29,105 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:57:30,108 INFO spawned: 'random_creator' with pid 54
+2024-09-12 10:57:31,110 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:57:31,311 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:57:32,313 INFO spawned: 'random_creator' with pid 55
+2024-09-12 10:57:33,312 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:57:33,392 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:57:34,394 INFO spawned: 'random_creator' with pid 62
+2024-09-12 10:57:35,396 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:57:35,539 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 10:57:36,542 INFO spawned: 'random_creator' with pid 63
+2024-09-12 10:57:37,542 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 10:58:01,232 WARN received SIGTERM indicating exit request
+2024-09-12 10:58:01,247 INFO waiting for django, random_creator to die
+2024-09-12 10:58:01,252 WARN stopped: random_creator (terminated by SIGTERM)
+2024-09-12 10:58:01,483 INFO stopped: django (exit status 0)
+2024-09-12 11:00:32,332 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-12 11:00:32,336 INFO supervisord started with pid 1
+2024-09-12 11:00:33,339 INFO spawned: 'django' with pid 7
+2024-09-12 11:00:33,341 INFO spawned: 'random_creator' with pid 8
+2024-09-12 11:00:34,343 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 11:00:34,344 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 11:01:27,332 WARN received SIGTERM indicating exit request
+2024-09-12 11:01:27,333 INFO waiting for django, random_creator to die
+2024-09-12 11:01:27,345 WARN stopped: random_creator (terminated by SIGTERM)
+2024-09-12 11:01:27,454 INFO stopped: django (exit status 0)
+2024-09-12 11:09:30,064 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-12 11:09:30,069 INFO supervisord started with pid 1
+2024-09-12 11:09:31,072 INFO spawned: 'django' with pid 7
+2024-09-12 11:09:31,074 INFO spawned: 'random_creator' with pid 8
+2024-09-12 11:09:32,076 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 11:09:32,077 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 11:10:16,765 WARN received SIGTERM indicating exit request
+2024-09-12 11:10:16,766 INFO waiting for django, random_creator to die
+2024-09-12 11:10:16,774 WARN stopped: random_creator (terminated by SIGTERM)
+2024-09-12 11:10:16,898 INFO stopped: django (exit status 0)
+2024-09-12 11:13:29,006 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-12 11:13:29,011 INFO supervisord started with pid 1
+2024-09-12 11:13:30,014 INFO spawned: 'django' with pid 7
+2024-09-12 11:13:30,015 INFO spawned: 'migrations' with pid 8
+2024-09-12 11:13:30,017 INFO spawned: 'random_creator' with pid 9
+2024-09-12 11:13:31,019 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 11:13:31,019 INFO success: migrations entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 11:13:31,019 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 11:13:31,496 WARN exited: random_creator (exit status 1; not expected)
+2024-09-12 11:13:31,554 INFO spawned: 'random_creator' with pid 11
+2024-09-12 11:13:32,576 INFO success: random_creator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 11:13:32,935 INFO exited: migrations (exit status 0; expected)
+2024-09-12 11:13:32,959 INFO spawned: 'migrations' with pid 33
+2024-09-12 11:13:33,992 INFO success: migrations entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 11:13:34,433 INFO exited: migrations (exit status 0; expected)
+2024-09-12 11:13:34,443 INFO spawned: 'migrations' with pid 174
+2024-09-12 11:13:35,444 INFO success: migrations entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 11:13:36,048 INFO exited: migrations (exit status 0; expected)
+2024-09-12 11:13:36,051 INFO spawned: 'migrations' with pid 353
+2024-09-12 11:13:37,077 INFO success: migrations entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 11:13:37,613 INFO exited: migrations (exit status 0; expected)
+2024-09-12 11:13:37,616 INFO spawned: 'migrations' with pid 470
+2024-09-12 11:13:38,651 INFO success: migrations entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 11:13:39,250 INFO exited: migrations (exit status 0; expected)
+2024-09-12 11:13:39,255 INFO spawned: 'migrations' with pid 583
+2024-09-12 11:13:40,256 INFO success: migrations entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 11:13:41,222 INFO exited: migrations (exit status 0; expected)
+2024-09-12 11:13:41,232 INFO spawned: 'migrations' with pid 717
+2024-09-12 11:13:42,234 INFO success: migrations entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 11:13:43,363 INFO exited: migrations (exit status 0; expected)
+2024-09-12 11:13:43,369 INFO spawned: 'migrations' with pid 880
+2024-09-12 11:13:44,371 INFO success: migrations entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 11:13:45,139 INFO exited: migrations (exit status 0; expected)
+2024-09-12 11:13:45,149 INFO spawned: 'migrations' with pid 1021
+2024-09-12 11:13:46,152 INFO success: migrations entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 11:13:46,892 INFO exited: migrations (exit status 0; expected)
+2024-09-12 11:13:46,897 INFO spawned: 'migrations' with pid 1268
+2024-09-12 11:13:47,911 INFO success: migrations entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 11:13:48,401 INFO exited: migrations (exit status 0; expected)
+2024-09-12 11:13:48,412 INFO spawned: 'migrations' with pid 1463
+2024-09-12 11:13:49,434 INFO success: migrations entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 11:13:49,938 INFO exited: migrations (exit status 0; expected)
+2024-09-12 11:13:49,940 INFO spawned: 'migrations' with pid 1594
+2024-09-12 11:13:50,940 INFO success: migrations entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 11:13:51,463 INFO exited: migrations (exit status 0; expected)
+2024-09-12 11:13:51,469 INFO spawned: 'migrations' with pid 1715
+2024-09-12 11:13:52,471 INFO success: migrations entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 11:13:53,092 INFO exited: migrations (exit status 0; expected)
+2024-09-12 11:13:53,096 INFO spawned: 'migrations' with pid 1848
+2024-09-12 11:13:54,191 INFO success: migrations entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 11:13:54,840 INFO exited: migrations (exit status 0; expected)
+2024-09-12 11:13:54,842 INFO spawned: 'migrations' with pid 2145
+2024-09-12 11:13:55,844 INFO success: migrations entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-12 11:13:56,592 INFO exited: migrations (exit status 0; expected)
+2024-09-12 11:13:56,596 INFO spawned: 'migrations' with pid 2400
+2024-09-12 11:13:56,618 WARN received SIGTERM indicating exit request
+2024-09-12 11:13:56,619 INFO waiting for django, migrations, random_creator to die
+2024-09-12 11:13:56,624 WARN stopped: random_creator (terminated by SIGTERM)
+2024-09-12 11:13:56,626 WARN stopped: migrations (terminated by SIGTERM)
+2024-09-12 11:13:56,782 INFO stopped: django (exit status 0)
